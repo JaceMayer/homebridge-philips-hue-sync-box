@@ -16,7 +16,7 @@ function PhilipsHueSyncBoxPlatform(log, config, api) {
 
     // Saves objects for functions
     platform.Accessory = api.platformAccessory;
-    platform.Categories = api.hap.Accessory.Categories;
+    platform.Categories = api.hap.Categories;
     platform.Service = api.hap.Service;
     platform.Characteristic = api.hap.Characteristic;
     platform.UUIDGen = api.hap.uuid;
